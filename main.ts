@@ -1,11 +1,8 @@
 input.onButtonPressed(Button.A, function () {
-    RingbitCar.turnright()
-})
-input.onGesture(Gesture.ScreenUp, function () {
     RingbitCar.back()
 })
 input.onButtonPressed(Button.B, function () {
-    RingbitCar.turnleft()
+    RingbitCar.forward()
 })
 input.onGesture(Gesture.ScreenDown, function () {
     RingbitCar.brake()
